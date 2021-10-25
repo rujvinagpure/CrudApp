@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     }
 })
 
-const AddUser = () => {
+const EditUser = () => {
     const [user, setUser] = useState(initialValue);
     const { name, username, email, phone } = user;
     const classes = useStyles();
@@ -63,4 +63,4 @@ const AddUser = () => {
     )
 }
 
-export default AddUser;
+export default EditUser;
